@@ -1,0 +1,25 @@
+#more {
+     display: none;
+ }
+ div{
+     border: 2px solid black;
+     width: 50%;
+     height: 50%;
+     display: block;
+     margin: auto;
+     padding: 30px;
+ }
+ button{
+     display: block;
+     margin: auto;
+     font-size: 20px;
+     
+ }
+   body {
+   
+        padding: 200px;
+    }
+    h1 {
+        text-align: center;
+        color: orangered;
+    }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="project1.css" type="text/css">
+</head>
+<style>
+</style>
+<body>
+
+     <h1>Javascript change the background color</h1>
+    <button id="btn">Change color</button>
+   
+ </body>  
+<script type="text/javascript">
+        var colors=["#5f27cd","#220044","#ff0000","purple","#00ff00","#0079ff","pink","orange","gray","black"];
+        var i=0;
+        document.querySelector("button").addEventListener("click",function()
+        {
+            
+             i=i <colors.length ? ++i :0; // if condition if true? then value x : otherwise value y
+            document.querySelector("body").style.background= colors[i];
+            
+        });
+    </script>
+    
+
+</html>
